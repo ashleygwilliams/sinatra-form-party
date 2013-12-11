@@ -5,6 +5,8 @@
   </head>
   <body>
     <%= yield %>
-    <a href="/"> << Back to Form Party </a>
+    <% if params.count > 2 %>
+      <a href="/"> << Back to Form Party </a>
+    <% end %>
   </body>
 </html>
