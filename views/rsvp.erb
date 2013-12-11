@@ -1,0 +1,31 @@
+<h1>RSVP Form</h1>
+<form action="/rsvp" method="POST">
+
+  <label for="POST-name">Name:</label>
+  <input id="POST-name" type="text" name="name">
+
+  <br/>
+
+  <label for="POST-guests">Guests:</label>
+  <select id="POST-guests" name="guests">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+  </select>
+
+  <br/>
+
+  <label for="POST-item">I will bring:</label>
+  <input type="radio" id="wine" name="item" value="Wine">Wine</input>
+  <input type="radio" id="cheese" name="item" value="Cheese">Cheese</input>
+  <input type="radio" id="crackers"  name="item"value="Crackers">Crackers</input>
+
+  <br/>
+
+  <label for="POST-attendance">I will attend the party!</label>
+  <input id="POST-attendance" type="checkbox" name="attendance">
+  <br/>
+
+  <button type="submit" value="RSVP">RSVP</button>
+
+</form>

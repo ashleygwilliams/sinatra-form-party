@@ -1,0 +1,63 @@
+<h1>Survey</h1>
+<form action="/contact" method="POST">
+
+  <h1>Personal Info</h1>
+
+  <label for="POST-name">Name:</label>
+  <input id="POST-name" type="text" name="personal[name]">
+
+  <label for="POST-email">Age:</label>
+  <input id="POST-email" type="number" name="personal[age]">
+
+  <label for="POST-item">Gender</label>
+  <input type="radio" id="male" name="personal[gender]" value="male">Male</input>
+  <input type="radio" id="female" name="personal[gender]" value="female">Female</input>
+  <input type="radio" id="other"  name="personal[gender]"value="other">Other</input>
+
+  <br/>
+
+  <h1>Family Members</h1>
+
+  <label for="POST-name">Name:</label>
+  <input id="POST-name" type="text" name="family[0][name]">
+
+  <label for="POST-email">Age:</label>
+  <input id="POST-email" type="number" name="family[0][age]">
+
+  <label for="POST-item">Gender</label>
+  <input type="radio" id="male" name="family[0][gender]" value="male">Male</input>
+  <input type="radio" id="female" name="family[0][gender]" value="female">Female</input>
+  <input type="radio" id="other"  name="family[0][gender]"value="other">Other</input>
+
+  <br/>
+
+  <label for="POST-name">Name:</label>
+  <input id="POST-name" type="text" name="family[1][name]">
+
+  <label for="POST-email">Age:</label>
+  <input id="POST-email" type="number" name="family[1][age]">
+
+  <label for="POST-item">Gender</label>
+  <input type="radio" id="male" name="family[1][gender]" value="male">Male</input>
+  <input type="radio" id="female" name="family[1][gender]" value="female">Female</input>
+  <input type="radio" id="other"  name="family[1][gender]"value="other">Other</input>
+
+  <br/>
+
+  <label for="POST-name">Name:</label>
+  <input id="POST-name" type="text" name="family[2][name]">
+
+  <label for="POST-email">Age:</label>
+  <input id="POST-email" type="number" name="family[2][age]">
+
+  <label for="POST-item">Gender</label>
+  <input type="radio" id="male" name="family[2][gender]" value="male">Male</input>
+  <input type="radio" id="female" name="family[2][gender]" value="female">Female</input>
+  <input type="radio" id="other"  name="family[2][gender]"value="other">Other</input>
+
+  <br/>
+
+
+
+  <button type="submit" value="Submit">Submit</button>
+</form>

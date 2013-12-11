@@ -1,0 +1,75 @@
+<h1>Order Form</h1>
+<form action="/order" method="POST">
+
+  <label for="POST-item1">Item1:</label>
+  <select id="POST-item1" name="item[0][name]">
+    <option value="bigfoot">Bigfoot the Holiday Yeti Holiday Ornament</option>
+    <option value="guineapig">Santa Guinea Pig Outfit</option>
+    <option value="beardski">Bearded Ski Masks</option>
+    <option value="inflatable">Inflatable Santa Suit</option>
+    <option value="uglyhan">Ugly Hanukkah Sweater</option>
+    <option value="donut">Donut Behind Glass</option>
+    <option value="pizza">Pizza Slice-Shaped Bean Bag Chair</option>
+  </select>
+
+  <label for="POST-item1_quant">Quantity:</label>
+  <select id="POST-item1_quant" name="item[0][quant]">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+  </select>
+
+  <br/>
+
+  <label for="POST-item2">Item2:</label>
+  <select id="POST-item2" name="item[1][name]">
+    <option value="bigfoot">Bigfoot the Holiday Yeti Holiday Ornament</option>
+    <option value="guineapig">Santa Guinea Pig Outfit</option>
+    <option value="beardski">Bearded Ski Masks</option>
+    <option value="inflatable">Inflatable Santa Suit</option>
+    <option value="uglyhan">Ugly Hanukkah Sweater</option>
+    <option value="donut">Donut Behind Glass</option>
+    <option value="pizza">Pizza Slice-Shaped Bean Bag Chair</option>
+  </select>
+
+  <label for="POST-item2_quant">Quantity:</label>
+  <select id="POST-item2_quant" name="item[1][quant]">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+  </select>
+
+  </br>
+
+  <br/>
+
+  <h3>Deliver to:</h3>
+
+  <label for="POST-address1">Address 1:</label>
+  <input id="POST-address1" type="text" name="address1">
+
+  <br/>
+
+  <label for="POST-address2">Address 2:</label>
+  <input id="POST-address2" type="text" name="address2">
+
+  <br/>
+
+  <label for="POST-city">City:</label>
+  <input id="POST-city" type="text" name="city">
+
+  <label for="POST-state">State:</label>
+  <input id="POST-state" type="text" name="state">
+
+  <label for="POST-zip">Zip:</label>
+  <input id="POST-zip" type="text" name="zip">
+
+  <br/>
+
+  <label for="POST-notes">Notes:</label>
+  <input id="POST-notes" type="text" name="notes">
+
+  </br>
+
+  <button type="submit" value="Place Order">Place Order</button>
+</form>
